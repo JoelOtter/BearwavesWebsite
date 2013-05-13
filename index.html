@@ -4,51 +4,57 @@
 	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 </head>
 <body>
+
 	<div id="header">
-		<div class="headercontainer">
-			<a href="#"><img src="logo.png"></a>
-			<div class="headerbutton" style="border-right-width: 1px; border-right-style: solid;"><a href="#team">TEAM</a></div>
-			<div class="headerbutton"><a href="#feed">FEED</a></div>
-			<div class="headerbutton"><a href="#about">ABOUT</a></div>
+		<div class="container">
+			<h1 id="logo">Bearwaves</h1>
+			<ul id="navigation">  
+				<li><a href="#team">Team</a></li>
+				<li><a href="#feed">Feed</a></li>
+				<li><a href="#about">About</a></li>
+			</ul>
 		</div>
 	</div>
-	<div><p style="margin-bottom: 30px; opacity: 0;">spaaaaaace</p></div>
-	<div class="box">
-		<span id="about"></span>
-		<h1><a>About</a></h1>
-		<img src="paw.png">
-		<p>We're an independent game design studio based in Northern Ireland. At the minute, we're focusing on making really high-quality, long-lasting mobile gaming experiences.
-		<br>And on hunting salmon, ROAR.</p>
-	</div>
-	<div class="box">
-		<span id="feed"></span>
-		<h1 style="background-color: #414C5E"><a>@Bearwaves</a></h1>
-		<img src="twitter.png">
-		<p>Tweets go here</p>
-		<p>Tweets go here</p>
-		<p>Tweets go here</p>
-	</div>
-	<div class="box">
-		<span id="team"></span>
-		<h1 style="background-color: #F2BC50;"><a>Team</a></h1>
-		<img src="salmon.png">
-		<p>The Bearwaves team may be small, but it has the talent of a large pack of bears. If you did not already know, bears are one of the most skilled creatures in the animal kingdom. Grizzly bears, one of the more active members of the bear family, have been known to create traps for their prey. They work in groups; the more bears in the group, the higher the yield of salmon.</p>
-		<p>Mmm.</p>
-		<p>Anyway, back to the team. Bearwaves has three members: Joel Auterson, Matthew Fitch and William "Wiwa" Watson.</p>
-	</div>
-	<div class="threebox">
-		<div class="onethirdbox" style="margin-right: 4.5%;">
-			<h1 style="background-color: #0782AC;">Joel</h1>
-			<img src="Joel.png">
+	<div class="clear"></div><!-- offset -->
+	<div class="container">
+
+		<div class="box" id="about">
+			<h2>About</h2>
+			<img src="paw.png">
+			<p>We're an independent game design studio based in Northern Ireland. At the minute, we're focusing on making really high-quality, long-lasting mobile gaming experiences.
+			<br>And on hunting salmon, ROAR.</p>
 		</div>
-		<div class="onethirdbox" style="margin-right: 4.5%;">
-			<h1 style="background-color: #0782AC;">Matthew</h1>
-			<img src="Matthew.png" style="margin-top:11%;">
+
+		<div class="box" id="feed">
+			<h2>@Bearwaves</h2>
+			<img src="twitter.png">
+			<p>Tweets go here</p>
+			<p>Tweets go here</p>
+			<p>Tweets go here</p>
 		</div>
-		<div class="onethirdbox">
-			<h1 style="background-color: #0782AC;">Wiwa</h1>
-			<img src="Wiwa.png" style="margin-top:11%; margin-right:0px;">
+		<div class="box" id="team">
+			<h2>Team</h2>
+			<img src="salmon.png">
+			<p>The Bearwaves team may be small, but it has the talent of a large pack of bears. If you did not already know, bears are one of the most skilled creatures in the animal kingdom. Grizzly bears, one of the more active members of the bear family, have been known to create traps for their prey. They work in groups; the more bears in the group, the higher the yield of salmon.</p>
+			<p>Mmm.</p>
+			<p>Anyway, back to the team. Bearwaves has three members: Joel Auterson, Matthew Fitch and William "Wiwa" Watson.</p>
 		</div>
-	</div>
+
+		<ul id="members">
+			<li>
+				<h3>Joel</h3>
+				<img src="Joel.png" />
+			</li>
+			<li>
+				<h3>Matthew</h3>
+				<img src="Matthew.png" />
+			</li>
+			<li>
+				<h3>Wiwa</h3>
+				<img src="Wiwa.png" />
+			</li>
+		</ul>
+
+	</div> <!-- end main container -->
 </body>
 </html>
