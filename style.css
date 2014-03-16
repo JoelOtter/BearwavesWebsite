@@ -101,6 +101,7 @@ ul#navigation li:hover {
 	transition: all 0.3s;
 	min-width:750px;
 	width: 100%;
+	font-family: 'Gafata', sans-serif;
 }
 
 .box:hover, ul#members li:hover{
@@ -126,6 +127,10 @@ ul#navigation li:hover {
 	color: #565555;
 	font-size: 17.5px;
 	padding: 10px;
+}
+
+.box a {
+	color: #DC4459;
 }
 
 /* 
