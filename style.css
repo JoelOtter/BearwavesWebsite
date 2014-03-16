@@ -80,7 +80,7 @@ ul#navigation li:hover {
  * BOXES
  */
 
-#feed h2 { background: #414C5E;}
+#contact h2 { background: #414C5E;}
 #team h2 { background: #F2BC50;}
 #screenshots h2 { background: #414C5E;}
 #alpha h2 { background: #F2BC50;}
@@ -148,6 +148,8 @@ ul#members li {
 	margin-right: 4%;
 	background: #fff;
 	float: left;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 }
 ul#members li img {
 	width: 60%;
